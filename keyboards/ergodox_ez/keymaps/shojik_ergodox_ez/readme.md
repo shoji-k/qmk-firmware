@@ -13,3 +13,10 @@
 This is what we ship with out of the factory. :) The image says it all:
 
 ![Default](https://i.imgur.com/Be53jH7.png)
+
+## build
+
+```
+$ qmk compile -kb ergodox_ez/base -km shojik_ergodox_ez
+# output .build/ergodox_ez_base_shojik_ergodox_ez.hex
+```
